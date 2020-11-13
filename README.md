@@ -7,13 +7,10 @@ Implementação da API do algoritmo de ML para regulação médica.
 git clone https://github.com/ajuricabense/tele-regula-ML.git
 
 - Colocar os arquivos **model.hdf5** na pasta webapp/app/weights e **tokenizer.pkl.z** na pasta webapp/app/tokenizer.  
-- Construir a imagem do container:
+- Construir a imagem e iniciar o container do docker:
 ```
 cd telessauders-regulacao`
 docker-compose build
-```
-- Iniciar o container
-```
 docker-compose up -d
 ```
 
