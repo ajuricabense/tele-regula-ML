@@ -76,14 +76,8 @@ def classify(solicitacaoid, texts):
   y_pred_df["DECISAO"] = y_pred_df.DECISAO.fillna("SEM DECISAO")
   y_pred_df["SOLICITACAOID"] = solicitacaoid
   y_pred_df = y_pred_df[["SOLICITACAOID", "PROBABILIDADE", "DECISAO"]]
-  y_pred_df["data"] = pd.to_datetime('now').strftime('%Y-%m-%d-%H:%M:%S')
-  y_pred_df["assinatura"] ="tele-reg-1.0"
-
-  #return {
-  #      "solicitacaoid": solicitacaoid, 
-  #      "probabilidade": y_pred_df["PROBABILIDADE"].values,
-  #      "decisao": y_pred_df["DECISAO"].values
-  #  }
+  y_pred_df["DATA"] = pd.to_datetime('now').strftime('%Y-%m-%d-%H:%M:%S')
+  y_pred_df["ASSINATURA"] ="tele-reg-1.0"
 
   print(y_pred_df)
   y_pred_df = y_pred_df.to_dict(orient='records')
