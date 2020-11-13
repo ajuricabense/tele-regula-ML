@@ -8,9 +8,10 @@ git clone https://github.com/ajuricabense/tele-regula-ML.git
 
 - Colocar os arquivos **model.hdf5** na pasta webapp/app/weights e **tokenizer.pkl.z** na pasta webapp/app/tokenizer.  
 - Construir a imagem do container:
-    cd telessauders-regulacao
+```
+    cd telessauders-regulacao`
     docker-compose build
-
+```
 - Iniciar o container
 docker-compose up -d
 
