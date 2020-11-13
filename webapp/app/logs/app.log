@@ -1,0 +1,38 @@
+2020-11-13 08:59:29,891:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-13 08:59:29,893:INFO: * Restarting with stat
+2020-11-13 08:59:31,731:WARNING: * Debugger is active!
+2020-11-13 08:59:31,747:INFO: * Debugger PIN: 280-543-099
+2020-11-13 09:20:51,860:INFO: * Detected change in '/home/alfredo/MEGA/2020/Tele/Regulacao/tele-regula/webapp/app/classifier.py', reloading
+2020-11-13 09:20:52,419:INFO: * Restarting with stat
+2020-11-13 09:20:55,458:WARNING: * Debugger is active!
+2020-11-13 09:20:55,476:INFO: * Debugger PIN: 280-543-099
+2020-11-13 09:21:29,699:INFO: * Detected change in '/home/alfredo/MEGA/2020/Tele/Regulacao/tele-regula/webapp/app/classifier.py', reloading
+2020-11-13 09:21:30,076:INFO: * Restarting with stat
+2020-11-13 09:21:32,792:WARNING: * Debugger is active!
+2020-11-13 09:21:32,809:INFO: * Debugger PIN: 280-543-099
+2020-11-13 09:22:15,722:INFO: * Detected change in '/home/alfredo/MEGA/2020/Tele/Regulacao/tele-regula/webapp/app/classifier.py', reloading
+2020-11-13 09:22:16,087:INFO: * Restarting with stat
+2020-11-13 09:22:18,013:WARNING: * Debugger is active!
+2020-11-13 09:22:18,026:INFO: * Debugger PIN: 280-543-099
+2020-11-13 09:30:43,529:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-13 09:30:43,530:INFO: * Restarting with stat
+2020-11-13 09:30:45,521:WARNING: * Debugger is active!
+2020-11-13 09:30:45,538:INFO: * Debugger PIN: 280-543-099
+2020-11-13 09:31:16,448:DEBUG:Iniciando pré-processamento dos textos
+2020-11-13 09:31:16,470:INFO:127.0.0.1 - - [13/Nov/2020 09:31:16] "[35m[1mPOST /regular HTTP/1.1[0m" 500 -
+2020-11-13 09:40:03,322:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-13 09:40:03,323:INFO: * Restarting with stat
+2020-11-13 09:40:05,454:WARNING: * Debugger is active!
+2020-11-13 09:40:05,472:INFO: * Debugger PIN: 280-543-099
+2020-11-13 09:47:05,211:DEBUG:Iniciando pré-processamento dos textos
+2020-11-13 09:47:05,682:DEBUG:Concluído o pré-processamento dos textos
+2020-11-13 09:47:05,682:DEBUG:Iniciando a carga do modelo
+2020-11-13 09:47:18,326:WARNING:From /home/alfredo/miniconda3/lib/python3.7/site-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2020-11-13 09:47:19,233:WARNING:From /home/alfredo/miniconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+2020-11-13 09:47:19,395:DEBUG:Concluída a carga do modelo
+2020-11-13 09:47:19,395:DEBUG:Iniciando a predição dos casos
+2020-11-13 09:47:19,563:DEBUG:Concluída a predição dos casos
+2020-11-13 09:47:19,582:INFO:127.0.0.1 - - [13/Nov/2020 09:47:19] "[37mPOST /regular HTTP/1.1[0m" 200 -
